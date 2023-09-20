@@ -1,0 +1,62 @@
+body{
+    font-family: 'Monaco', monospace;
+    color: black;
+    background: #f5f4e8;
+    margin: 2%;
+
+}
+.titulo{
+    text-align: center;
+}
+.headernome{
+    margin-block: 3%;
+    padding: 1%;
+    list-style: disc;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+}
+.listmenu{
+    list-style: none;
+    border-style: double;
+    padding: 1%;
+    color: black;
+    margin-inline-end: 2%;
+    text-align: center;
+    font-size: large;
+}
+.linkmenu{
+    text-decoration: none;
+    display: inline;
+}
+.listmenu:hover{
+    background-color: #323643;
+    color: white;
+}
+.div1{
+    margin: 3%;
+    border-style: double;
+    padding: 1%;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+}
+.div2{
+    margin: 3%;
+    border-style: double;
+    padding: 1%;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+}
+.div3{
+    margin: 3%;
+    border-style: double;
+    padding: 1%;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+}
+.div4{
+    margin: 3%;
+    border-style: double;
+    padding: 1%;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;   
+}

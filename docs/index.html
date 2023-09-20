@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Apostila</title>
+    <style type="text/css" id="operaUserStyle"></style>
+    <style type="text/css"></style>
+</head>
+<body>
+    <div>
+        <h1 class="titulo">Apostila HTML e CSS</h1>
+    <header class="headernome">
+        <nav>
+            <ul>
+                <a class="linkmenu" href="#introducao"><li class="listmenu">Introdução ao HTML e CSS</li></a>
+                <a class="linkmenu" href="#tagshtml"><li class="listmenu">Tags HTML</li></a>
+                <a class="linkmenu" href="#excss"><li class="listmenu">CSS</li></a>
+                <a class="linkmenu" href="#exempcodigos"><li class="listmenu">Exemplos de Códigos</li></a>
+                <a class="linkmenu" href="#referencias"><li class="listmenu">Referências</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="div1">
+        <h2>Introdução ao HTML e CSS</h2>
+        <section id="introdução ao HTML e CSS">
+            <p>HTML e CSS são as linguagens de programação básicas para o desenvolvimento de websites ou paginas. O HTML é responsável por criar toda a estrutura
+            da pagina no geral, como por exemplo: textos, links, e arquivos. Assim como também possibilita a organização e formatação de documentos. Já o CSS
+            é responsável por toda a estrutura visual do site, possibilitando a alteração de cor do texto, do fundo da pagina, alterar a fonte utilizada nos textos,
+            o espaçamento entre parágrafos. Também nos da a possibilidade de usar variações de layouts diferentes, ajustar as medidas de imagens e assim por diante.</p>
+            <p>Temos como exemplo de Tags HTML, a Tag 'p' para quando quisermos abrir um parágrafo, e a tag 'header', que é a Tag responsável pelo cabeçalho da página.</p>
+            <ul>
+                <li>(html) : É a tag que identifica um documento como HTML;</li>
+                <li>(head) : É a tag que apresenta as informações gerais da página;</li>
+                <li>(title) : É a tag que informa o título da página na barra do navegador web;</li>
+                <li>(body) : É a tag que delimita o conteúdo todo da página web.</li>
+            </ul>
+            <p>Resumidamente, o HTML é responsável por toda a construção e desenvolvimentoda estrutura da página, enquanto o CSS é a ferramenta responsável por
+                toda a contrução estética da página ou website. 
+            </p>
+        </section>
+    </div>
+    <div class="div2">
+        <section id="tagshtml">
+            <h2>Tags HTML</h2>
+            <h3>Tags de Título</h3>
+            <p>Como é visto na imagem a seguir, temos vários exemplos de Tags que podem ser utilizadas na criação
+                de uma página. Temos como exemplo a Tag "Heading", que vão < h1 > ao < h6 >. A tag < h1 > Tendo um
+                maior destaque na página, já a Tag < h6 > sendo mais discreta. 
+            </p>
+            <img src="https://paradoxweb.com.br/wp-content/uploads/2018/10/O-que-s%C3%A3o-h1-h2-e-h3.png" alt="Tipos de tags" width="500" height="500">
+            
+            <h3>Tags de Formatação</h3>
+            <p>Existem tags que podem ser utilizadas para apresentação de texto em uma página web. Por exemplo:</p>
+            <ul>
+            <li>< p >: Tag utilizada para a abertura de um parágrafo na página.</li>
+            <li>< span >: Tag utilizada para a representação de um texto sem significado importante para a página.</li>
+            </ul>
+            <p>A tag de span deve ser utilizada SOMENTE quando não há nenhum outro elemento de texto semântico que represente um significado adequado.</p>
+            
+            <h2>Tags de Texto</h2>
+            <p>Veja alguns exemplos de Tags de texto a seguir:</p>
+            <ul>
+            <li>< small >: Tag utilizada para tornar o texto menor;</li>
+            <li>< sub >: Texto subscrito;</li>
+            <li>< em >: Tag usada para enfatizar o texto;</li>
+            <li>< sup >: Texto sobrescrito;</li>
+            <li>< strong >: Tag utilizada para realçar o texto;</li>
+            <li>< b >: Texto em negrito;</li>
+            </ul>
+
+            <h3>Tags de Listas</h3>
+                <p>Exemplo de lista ordenada e não ordenada:</p>
+                <img src="https://cristianomaiablog.files.wordpress.com/2016/01/lista.jpg?w=800&h=948" alt="Lista ordenada e nao ordenada"
+                width="500" height="500">
+                <p>Exemplo de Lista de definição:</p>
+                <p>É uma lista que define algum termo.</p>
+                <img src="http://2.bp.blogspot.com/-KLtCdqZguzI/UPN3BfyVYUI/AAAAAAAAAY0/FRxOKicqy1Q/s1600/IMG16.png" alt="Lista de definição HTML" width="500" height="500">
+                <p>"A tag < dt > é utilizada quando se quer definir um Termo. A definição é apresentada pela tag < dd >. Uma DT pode ter mais de uma DD."</dd></p>
+                
+                <h3>Tags de Link</h3>
+                <p>"Fazem com que seja possivel o deslocamento entre uma página e outra através de um link, isso é possível graças a tag < a >, href é
+                responsável por armazenar o endereço da página responsável pelo link, a tag "mailto" é a responsável por possibilitar
+                a abertura de uma interface para o envio de e-mails, já a tag "#id" redireciona o usuário para uma parte específica da pagina,
+                e a tag de "download" permite que o usuario baixe o arquivo armazenado no link."</p>
+                <img src="https://lenadesign.org/wp-content/uploads/2021/06/html-link-tag.jpg" alt="lINK HTML" width="500" height="500">
+                
+                <h3>Atributos</h3>
+                <h4>Atributo ID</h4>
+                <p>Um atributo id serve para identificar um único elemento de uma página web. Este atributo é global, então, qualquer tag do HTML 
+                    pode possuir um id. Seu valor deve começar com uma letra ou underline. Um elemento não pode possuir mais de um atributo de id. Um
+                    atributo de ID pode auxiliar o CSS e até mesmo o JavaScript.</p>
+                    <img src="https://dotnettutorials.net/wp-content/uploads/2021/10/word-image-152.png" alt="Atributo ID">
+
+                    <h4>Atributo class</h4>
+                    <p>Este atributo serve para dar categoria a um grupo de elementos que possuem o mesmo comportamento. Assim como o atributo de id, o
+                        atributo class também é global, ou seja, qualquer tag do HTML pode possuir uma class. Seu valor também começa com uma letra ou underline, 
+                        e também auxilia tanto o CSS quanto JavaScript.</p>
+                        <img src="https://linuxhint.com/wp-content/uploads/2022/02/text-description-automatically-generated-1.png" alt="Atributo class">
+
+                        <h3>Div</h3>
+                        <p>A divisória permite o agrupamento de um conjunto elementos em uma caixa block-level. Cada conteúdo presente em uma divisória será apresentado
+                            em uma nova linha, e este comportamento pode ser alterado utilizando o CSS. A div melhora a organização do código da sua página web, além de ser
+                            permitido colocar qualquer elemento dentro de uma divisória.</p>
+                            <img src="https://linuxhint.com/wp-content/uploads/2022/02/text-description-automatically-generated.png" alt="Exemplo Div">
+
+                            <h3>Nav</h3>
+                            <p>A Nav é utilizada para representar um agrupamento de links de navegação. Por exemplo: Paginação de uma busca.</p>
+
+                            <h3>Header</h3>
+                            <p>Header é utilizada para representar o cabeçalho de um documento ou de uma seção. </p>
+
+                            <h3>Section</h3>
+                            Esta tag representa uma seção dentro de um documento, esta tag é utilizada para descrever separadamento as seções
+                e tópicos de um certo documento.
+                <p></p> 
+                <img src="https://slideplayer.com.br/slide/13195663/79/images/4/TAG+%3CSECTION%3E+Exemplo%3A+o+exemplo+abaixo+apresenta+um+artigo+contendo+um+assunto+principal%2C+e+dentro+desse+v%C3%A1rias+se%C3%A7%C3%B5es+com+assuntos+distintos..jpg" alt="Exemplo Section" width="600" height="400">
+
+                <h3>Main</h3>
+                <p>A tag é utilizada para especificar todo o conteúdo principal, ou de maior relevância, de um documento. Uma página HTML deve
+                    conter apenas um conteúdo principal, utilizando a tag Main. Por exemplo: O conteúdo de um site.</p>
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*iVOyMNvKrhjB8eVRVo_bwg.png" alt="Tag Main" width="600" height="400">
+        </section>
+    </div>
+    <div class="div3">
+        <section id="excss">
+            <h2>CSS</h2>
+            <p>CSS, na verdade, é uma sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa
+                Folha de Estilo em Cascatas. O CSS é simples de se aprender, e é comumente utilizado com as linguagens HTML e XHTML. Criado em 1996 pelo
+                World Wide Web Consortium com o intuito de auxiliar o HTML, pois a linguagem HTML não foi projetado para ter tags que ajudariam a formatar
+                a página. O estilo CSS sempre é definido em um arquivo CSS separado da página HTML, assim, tornando mais fácil o desenvolvimento da página 
+                web. Essa separação permite manter o código mais organizado e menos confuso para o programador, permitindo que o conteúdo seja mostrado
+                de diversas maneiras diferentes, adaptando-se a diferentes tipos de dispositivos e tamanhos.
+                De maneira geral, o CSS é fundamental na criação de  páginas web, dando uma experiência mais agradável para o desenvolvedor.</p>
+
+                <h3>Exemplo de Sintaxe CSS:</h3>
+                <img src="https://www.cursosdeinformaticabasica.com.br/wp-content/uploads/2013/10/css1.jpg" alt="Sintaxe CSS">
+
+                <h3>Exemplo de uma inserção de Estilo CSS em um arquivo HTML:</h3>
+                <img src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/como-adicionar-css-no-html-sem-tag.webp" alt="CSS estilo">
+        </section>
+    </div>
+    <div class="div4">
+        <section id="referencias">
+         <h2>Referências</h2>
+         <p> • PDFs das Aulas de desenvolvimento Web Básico.</p>  
+         <h3>Imagens Utilizadas</h3>
+         <p>http://webcodefree.blogspot.com/2013/01/listas-em-html.html</p>
+         <p>https://lenadesign.org/2021/06/11/html-link-tag/</p>
+         <p>https://dotnettutorials.net/lesson/ids-in-html/</p>
+         <p>https://linuxhint.com/html-classes/</p>
+         <p>https://linuxhint.com/html-div-tag/</p>
+         <p>https://slideplayer.com.br/slide/13195663/</p>
+         https://medium.com/horadecodar/como-utilizar-o-elemento-semântico-main-db39e3f2d8c1
+         <p>https://www.cursosdeinformaticabasica.com.br/entendendo-a-sintaxe-do-css/</p>
+         <p>https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css</p>
+        </section>
+    </div>
+    </div>
+</body>
+</html>
